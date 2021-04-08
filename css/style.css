@@ -347,6 +347,11 @@ margin-left: auto;
   opacity: 0;
     
 }
+.tab li{
+padding-top: 10px;
+padding-bottom: 5px;
+  padding-left: 20px;
+}
 
 p {
   padding-top: 0px;
@@ -942,6 +947,7 @@ height: 80px;
 }
 .window img{
   height: 80vh;
+  min-width: 500px;
 }
 .collag{
 background-image: url(../price_img/collag.jpeg);
