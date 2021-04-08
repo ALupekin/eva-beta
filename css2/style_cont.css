@@ -1,0 +1,117 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Lobster-Regular";
+  src: url(../svg/Lobster-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{    
+  background-image: url(../img/fon2.jpeg);
+  background-repeat: no-repeat;
+  background-color: black;
+  background-size: 100%;   
+}
+.menu{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: flex-end;  
+}
+
+.menu-list{
+  position: relative;
+  z-index: 5;
+  display: flex;
+  margin:  0 auto;
+}
+
+.menu-item{
+  display: block;
+  width: 150px;
+  height: 40px;
+  color: aliceblue;
+  font-size: 20px;
+  text-decoration: none;
+  list-style-type: none; 
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 6px;
+  font-family: "Lobster-Regular"; 
+  background: -webkit-linear-gradient(top, #000000 0%, #4c4e5a 30%, #000000 100%);
+  background:    -moz-linear-gradient(top, #000000 0%, #4c4e5a 30%, #000000 100%);
+  background:      -o-linear-gradient(top, #000000 0%, #4c4e5a 30%, #000000 100%);
+  background:     -ms-linear-gradient(top, #000000 0%, #4c4e5a 30%, #000000 100%);
+  background:         linear-gradient(top, #000000 0%, #4c4e5a 30%, #000000 100%); 
+}
+
+.menu-item:nth-child(1){
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.menu-item:last-child{
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.menu-item:nth-child(3){
+  padding-left: 40px;
+}
+
+.menu-item a{
+  text-decoration: none;
+  color: aliceblue;
+}
+.menu-item a:hover{
+  display: block;
+  color: #6897f9;
+  transition: 0.5s;
+  transform: scale(1.1,1.1);
+    
+}
+.wa_cont{
+  display: block;
+  position: absolute;
+  padding: 25px;
+  z-index: 3;
+  transform: translate(-50%);
+  margin-left: 50%;    
+}
+
+.wa a, .wa_cont a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-family: "Lobster-Regular";
+  margin-top: 30px;
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  position: relative;
+  z-index: 5;
+}
+
+.wa_cont a{
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  padding-top: 20px;
+}
+
+.wa a:hover, .wa_cont a:hover{
+  color: #6897f9;
+  transition: 1s;
+  background: -webkit-linear-gradient(top, #000000 0%, #4c4e5a 30%, #000000 100%);
+  background:    -moz-linear-gradient(top, #000000 0%, #4c4e5a 30%, #000000 100%);
+  background:      -o-linear-gradient(top, #000000 0%, #4c4e5a 30%, #000000 100%);
+  background:     -ms-linear-gradient(top, #000000 0%, #4c4e5a 30%, #000000 100%);
+  background:         linear-gradient(top, #000000 0%, #4c4e5a 30%, #000000 100%);
+
+  border-radius: 20px;
+  opacity: 0.5;
+}
