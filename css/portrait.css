@@ -1,0 +1,17 @@
+@media(screen) and (orientation:portrait){
+    .all{
+        position: relative;
+    }
+    .foto{
+        position: absolute;
+        z-index: 5;
+        width: 30vw;
+    }   
+  .form{ }
+  .none-input{ width: 95vw;}
+  .form-textarea{ width: 95vw;}
+  .text-input-tel{ width: 95vw;}
+  .text-input-name{ width: 95vw;}  
+}
+    
+}
